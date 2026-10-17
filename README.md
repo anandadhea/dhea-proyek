@@ -1,16 +1,29 @@
-# React + Vite
+Pinkora Creative
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nama: Ananda Dhea Puspita
+NIM: 2505674
+Kelas: Pendidikan Ilmu Komputer 3C
 
-Currently, two official plugins are available:
+Deskripsi Website
+Pinkora Creative adalah website company profile untuk studio kreatif yang menyediakan berbagai layanan desain. Website ini dibuat untuk memperkenalkan studio, menampilkan layanan dan hasil karya, serta 
+memudahkan pengunjung menghubungi studio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Fitur Website
+home: menampilkan halaman utama, ringkasan studio, dan layanan unggulan.
+about: berisi informasi tentang studio, visi dan misi serta tim
+services: menampilkan layanan desain yang tersedia
+portofolio: menampilkan hasil karya atau proyek desain
+contact: menyediakan formulir kontak dan halaman informasi untuk menghubungi studio
 
-## React Compiler
+Cara menjalankan proyek
+1. Pastikan Node.js sudah terpasang di komputer/laptop
+2. Clone repository GitHub atau unduh kode sumber proyek
+3. Buka terminal pada folder utama proyek
+4. Jalankan perintah berikut untuk memasang seluruh dependensi yang dibutuhkan:
+npm install
+5. Setelah proses instalasi selesai, jalankan server dengan perintah:
+npm run dev
+6. Tunggu sampai terminal menampilkan alamat lokal website, biasanya berupa http://localhost:5173/
+7. Buka alamat tersebut melalui browser untuk melihat website Pinkora Creative.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Untuk menghentikan server pengembangan, tekan Ctrl + C pada terminal
